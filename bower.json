@@ -1,0 +1,23 @@
+{
+  "name": "Ember",
+  "version": "1",
+  "authors": [
+    "Andrew Orahoske <andrew.orahoske@gyro.com>"
+  ],
+  "description": "Demo Ember app",
+  "main": "index.html",
+  "keywords": [
+    "demo",
+    "ember",
+    "app"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
