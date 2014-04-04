@@ -10,7 +10,7 @@ App.PostsNewController = Ember.ObjectController.extend({
 		
 			var newPost = this.store.createRecord('post', {
 				title: thisModel.get("title"),
-				isCompleted: thisModel.get("copy")
+				copy: thisModel.get("copy")
 			});
 			
 			newPost.save();
